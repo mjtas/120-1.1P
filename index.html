@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIT120-1.1P</title>
+
+        <!--Example of internal CSS-->
+        <style>
+            body {
+                font-family: 'Open Sans', 'Arial', sans-serif;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 0;
+            }
+        </style>
+
+        <!--Example of external CSS-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Site header-->
+        <div class="header">
+            <div class="header-text">
+                <div class="header-left">Hidden Valley Tasmania</div>
+                <ul class="header-ul">
+                    <li class="header-li"><a class="header-a" href="#">No dig gardening</a></li>
+                    <li class="header-li"><a class="header-a" href="#">Sourdough bread making</a></li>
+                    <li class="header-li"><a class="header-a" href="#">Building skills</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!--Main section of site-->
+        <div class="main">
+            <div class="main-container">
+                <div class="main-heading">
+                    <h1>Hidden Valley Sustainable Living Workshops</h1>
+                </div>
+                <div class="main-other">
+                    <div class="main-left">
+                        <ul class="main-text">
+                            <li class="main-li">Learn about growing all kinds of vegetables productively, healthily and more easily, using no dig and organic principles.</li>
+                            <li class="main-li">Learn how to make reliable, bakery-quality sourdough bread, with baking schedules that work for your life.</li>
+                            <li class="main-li">Learn the skills you need to complete simple building tasks with confidence.</li>
+                        </ul>
+
+                        <div class="interest">
+                            <!--Example form-->
+                            <form class="interest-form">
+                                <h3>Subscribe to keep up to date</h3>
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name"><br>
+                                <label for="user_email">Email Address:</label><br>
+                                <input type="email" id="user_email" name="email" placeholder="you@example.com"><br>
+                                <fieldset>
+  		                            <legend>I would like to learn more about:</legend>
+                                    <input type="checkbox" id="no_dig" name="interest_area" value="no_dig" checked>
+                                    <label for="no_dig">No dig gardening</label>
+                                    <input type="checkbox" id="bread" name="interest_area" value="bread" checked>
+                                    <label for="bread">Bread making</label>
+                                    <input type="checkbox" id="building" name="interest_area" value="building" checked>
+                                    <label for="building">Building</label>
+                                </fieldset>
+                                <button type="submit" class = "button button1">Subscribe</button>
+	                        </form>
+	                    </div>
+                    </div>
+                    
+                    <!--Example image from web-->
+                    <div class="main-image">
+                        <img class="title-img" src="https://img.freepik.com/free-photo/narrow-pathway-garden-surrounded-by-lot-colorful-flowers_181624-13183.jpg?w=996&t=st=1689075696~exp=1689076296~hmac=32614839d00011a1cf2ed614d3c73c65382a49f7b978326608723957bfc034f3" alt="Garden Path">
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <!--Workshop timetable section of site-->
+        <div class="content">
+            <h2>Coming up:</h2>
+            <!--Example table-->
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <td>No dig gardening</td>
+                    <td>Sourdough bread making</td>
+                    <td>Building skills</td>
+                </tr>
+                <tr>
+                    <th>Date</th>
+                    <td>1 February 2024</td>
+                    <td>13 December 2013</td>
+                    <td>20 January 2024</td>
+                </tr>
+                <tr>
+                    <th>Presenter</th>
+                    <td>Charlie</td>
+                    <td>Lola</td>
+                    <td>Lola</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!--Booking section of site-->
+        <div class="booking-container">
+            <div class="booking">
+                <div class="booking-left">
+                    <div class="booking-text">Secure your spot - book now!</div>
+                </div>
+                <button class="button button2">Book</button>
+            </div>
+        </div>
+
+        <!--Site footer - example of inline CSS-->
+        <div class="footer" style="text-align: center; padding: 24px;">
+            <div class="footer-text"><a class="footer-a" href="https://www.freepik.com/free-photo/narrow-pathway-garden-surrounded-by-lot-colorful-flowers_10119383.htm">Image by wirestock</a> on Freepik</div>
+        </div>
+    </body>

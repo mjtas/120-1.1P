@@ -1,0 +1,263 @@
+/* Background styling for main and footer */
+.main, .footer {
+  background: #f8f9fa;
+}
+
+/* Header styling */
+.header {
+  background: #28a745;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+}
+
+.header-text {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.header-ul {
+  display: flex;
+  /* Removing list style from unordered list */
+  list-style-type: none;
+  padding: 0;
+  gap: 32px;
+}
+
+.header-li {
+  margin: 0;
+  padding: 0;
+}
+
+.header-a {
+  /* Remove text decoration for anchor links */
+  text-decoration: none;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+/* Main section styling */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 64px;
+  align-items: center;
+}
+
+.main-other {
+  display: flex;
+  justify-content: space-between;
+  gap: 92px;
+}
+
+.main-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  /* Removing list style from main text content */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.main-li {
+  /* Removing auto margins from list items */
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+/* Form styling */
+button,
+input,
+{
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.interest-form {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  width: 150px;
+  padding: 8px;
+  margin: 0;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/* Checkbox styling */
+fieldset {
+    margin-bottom: 18px;
+    width: 70%;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border: 1px solid gray;
+  vertical-align: -12px;
+  margin-left: 10px;
+  margin-right: 6px;
+  /* Green colour for customised checkmark */
+  color: #28a745;
+  padding: 0;
+}
+
+
+input[type="checkbox"]::before {
+  /* Customised checkmark */
+  content: "✔";
+  position: absolute;
+  font-size: 1.2em;
+  right: -1px;
+  top: -0.3em;
+  /* Hiding checkmark when not checked */
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+  /* Showing checkmark when checked */
+  visibility: visible;
+}
+
+.main-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-img {
+  width: 100%;
+  height: auto;
+  /* Rounded corner for image */
+  border-radius: 8%;  
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #28a745;
+  margin-bottom: 12px;
+}
+
+.main-text {
+  margin-bottom: 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+  text-align: center;
+}
+
+/* Styling for workshop content section */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for table */
+th, td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #f8f9fa;
+}
+
+
+table {
+  width: 50%;
+}
+
+/* Styling for booking section */
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 72px;
+}
+
+.booking {
+  /* Rounded corner for booking section */
+  border-radius: 8px; 
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #28a745;
+  padding: 32px;
+}
+
+.booking-text {
+  color: #F9FAF8;
+  margin-left: 32px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Styling for buttons */
+.button {
+  color: #F9FAF8;
+  background: #28a745;
+  /* Rounded corner for buttons */
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button1 {
+  border: none;
+  width: 100px;
+}
+
+.button2 {
+  margin-left: 32px;
+  margin-right: 32px;
+  border: 2px solid #F9FAF8;
+  padding: 10px 24px;
+}
+
+/* Styling for footer anchor links */
+.footer-a {
+  text-decoration: none;
+  color: black;
+}
