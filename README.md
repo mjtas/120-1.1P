@@ -2,7 +2,7 @@
 
 Hidden Valley Sustainable Living Workshops
 
-This repository contains the code for the Hidden Valley Sustainable Living Workshops website - an exercise for the SIT120 1.1P task.  The website promotes sustainable livings and offers workshops on no-dig gardening, sourdough bread making and building skills.
+This repository contains the code for the Hidden Valley Sustainable Living Workshops website - an exercise for the SIT120 1.1P task.  The website promotes sustainable living and offers workshops on no-dig gardening, sourdough bread making and building skills.
 
 To run the website locally, follow these steps:
 1. Clone the repository
